@@ -41,7 +41,7 @@ const HomePageComponent = () => (
         height="120%"
         viewBox="0 0 1200 900"
       >
-        <image
+        <image 
           width={850}
           height={800}
           xlinkHref="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUXhcpLEdBmw-eKHUpSQr4Pr4SiISjZ7sidA&usqp=CAU"
