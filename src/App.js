@@ -11,6 +11,35 @@ export default function App() {
 }
 import React from "react";
 
+var img = new Image();
+img.src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUXhcpLEdBmw-eKHUpSQr4Pr4SiISjZ7sidA&usqp=CAU';
+img.onclick = function() {
+    window.location.href = 'Echos.js';
+};
+document.body.appendChild(img);
+
+var img = new Image();
+img.src = 'https://preview.redd.it/ecjxlpyswh951.jpg?auto=webp&s=480654ecbd9a6258f2cfd85b87b40c32934e28eb';
+img.onclick = function() {
+    window.location.href = 'Distortion.js';
+};
+document.body.appendChild(img);
+
+var img = new Image();
+
+img.src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Kirk_Hammett_live_in_London_15_September_2008.jpg/1200px-Kirk_Hammett_live_in_London_15_September_2008.jpg';
+img.onclick = function() {
+    window.location.href = 'Misc.js';
+};
+document.body.appendChild(img);
+
+var img = new Image();
+img.src = 'https://imgc.allpostersimages.com/img/posters/slash-guns-n-roses_u-L-F9H6W70.jpg';
+img.onclick = function() {
+    window.location.href = 'Clean.js';
+};
+document.body.appendChild(img);
+
 const HomePageComponent = () => (
   <svg width={428} height={926} viewBox="0 0 428 926">
     <defs>
@@ -26,6 +55,7 @@ const HomePageComponent = () => (
         height="100%"
         viewBox="0 0 176 286"
       >
+
         <image 
         width={176} 
         height={280} 
@@ -44,7 +74,7 @@ const HomePageComponent = () => (
         <image 
           width={850}
           height={800}
-          xlinkHref="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUXhcpLEdBmw-eKHUpSQr4Pr4SiISjZ7sidA&usqp=CAU"
+          xlinkHref=""
         />
       </pattern>
       <clipPath id="d">
@@ -63,7 +93,7 @@ const HomePageComponent = () => (
         <image
           width={500}
           height={700}
-          xlinkHref="https://imgc.allpostersimages.com/img/posters/slash-guns-n-roses_u-L-F9H6W70.jpg"
+          xlinkHref=""
         />
       </pattern>
       <clipPath id="g">
@@ -79,7 +109,7 @@ const HomePageComponent = () => (
         <image
           width={1640}
           height={900}
-          xlinkHref="https://preview.redd.it/ecjxlpyswh951.jpg?auto=webp&s=480654ecbd9a6258f2cfd85b87b40c32934e28eb"
+          xlinkHref=""
         />
       </pattern>
       <clipPath id="j">
@@ -163,7 +193,7 @@ const HomePageComponent = () => (
           className="o"
           width={350}
           height={500}
-          xlinkHref="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Kirk_Hammett_live_in_London_15_September_2008.jpg/1200px-Kirk_Hammett_live_in_London_15_September_2008.jpg"
+          xlinkHref=""
         />
       </g>
       <g className="p" transform="translate(-5 538)">
