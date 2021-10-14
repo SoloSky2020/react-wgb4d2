@@ -3,17 +3,21 @@ import "./style.css";
 
 import React from "react";
 
+const HomePageComponent = () => (
+  <svg width={428} height={926} viewBox="0 0 428 926">
+  
+{ 
 var img = new Image();
 img.src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUXhcpLEdBmw-eKHUpSQr4Pr4SiISjZ7sidA&usqp=CAU';
 img.onclick = function() {
-    window.location.href = 'Echos.js';
+    window.location.href = 'Echos.js'
 };
 document.body.appendChild(img);
 
 var img = new Image();
 img.src = 'https://preview.redd.it/ecjxlpyswh951.jpg?auto=webp&s=480654ecbd9a6258f2cfd85b87b40c32934e28eb';
 img.onclick = function() {
-    window.location.href = 'Distortion.js';
+    window.location.href = 'Distortion.js'
 };
 document.body.appendChild(img);
 
@@ -21,19 +25,19 @@ var img = new Image();
 
 img.src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Kirk_Hammett_live_in_London_15_September_2008.jpg/1200px-Kirk_Hammett_live_in_London_15_September_2008.jpg';
 img.onclick = function() {
-    window.location.href = 'Misc.js';
+    window.location.href = 'Misc.js'
 };
 document.body.appendChild(img);
 
 var img = new Image();
 img.src = 'https://imgc.allpostersimages.com/img/posters/slash-guns-n-roses_u-L-F9H6W70.jpg';
 img.onclick = function() {
-    window.location.href = 'Clean.js';
+    window.location.href = 'Clean.js'
 };
 document.body.appendChild(img);
 
-const HomePageComponent = () => (
-  <svg width={428} height={926} viewBox="0 0 428 926">
+}
+
     <defs>
       <style>
         {
@@ -116,7 +120,7 @@ const HomePageComponent = () => (
       </g>
       <text className="d" transform="translate(103 48)">
         <tspan x={0} y={0}>
-          {"Effect Board"}
+          {"Infinity Pedal"}
         </tspan>
       </text>
       <g transform="translate(136 5)">
