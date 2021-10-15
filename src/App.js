@@ -3,9 +3,8 @@ import "./style.css";
 
 import React from "react";
 
-const HomePageComponent = () => (
-  <svg width={428} height={926} viewBox="0 0 428 926">
-  
+import slashimg from 'https://imgc.allpostersimages.com/img/posters/slash-guns-n-roses_u-L-F9H6W70.jpg';
+
 { 
 var img = new Image();
 img.src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUXhcpLEdBmw-eKHUpSQr4Pr4SiISjZ7sidA&usqp=CAU';
@@ -29,15 +28,17 @@ img.onclick = function() {
 };
 document.body.appendChild(img);
 
-var img = new Image();
-img.src = 'https://imgc.allpostersimages.com/img/posters/slash-guns-n-roses_u-L-F9H6W70.jpg';
-img.onclick = function() {
-    window.location.href = 'Clean.js'
-};
-document.body.appendChild(img);
+// var img4 = new Image();
+// img4.src = 'https://imgc.allpostersimages.com/img/posters/slash-guns-n-roses_u-L-F9H6W70.jpg';
+// img4.onclick = function() {
+    //window.location.href = 'Clean.js'
+//};
+// document.body.appendChild(img4);
 
 }
-
+const HomePageComponent = () => (
+  <svg width={428} height={926} viewBox="0 0 428 926">
+  
     <defs>
       <style>
         {
@@ -201,6 +202,7 @@ document.body.appendChild(img);
       <text className="t" transform="translate(61 245)">
         <tspan x={0} y={0}>
           {"Distortion"}
+          <img src={slashimg} />
         </tspan>
       </text>
       <text className="u" transform="translate(253 245)">
