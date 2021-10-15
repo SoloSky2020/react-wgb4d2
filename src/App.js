@@ -3,7 +3,8 @@ import "./style.css";
 
 import React from "react";
 
-import slashimg from 'https://imgc.allpostersimages.com/img/posters/slash-guns-n-roses_u-L-F9H6W70.jpg';
+/* import slashimg from 'https://imgc.allpostersimages.com/img/posters/slash-guns-n-roses_u-L-F9H6W70.jpg';
+*/
 
 { 
 var img = new Image();
